@@ -1,0 +1,100 @@
+/* ProjectSlider.module.css */
+
+/* Apply box-sizing border-box globally
+*, *::before, *::after {
+    box-sizing: border-box;
+} */
+
+.sliderContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.slider {
+
+    max-width: 65%;
+    box-sizing: border-box;
+}
+
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1a1a1a; 
+    border: 1px solid #dac5a7;
+    border-radius: 0.5rem; 
+    box-sizing: border-box;
+    padding: 1rem;
+ 
+}
+
+.category {
+    font-weight: bold; 
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; 
+    margin: 3em 0em;
+}
+
+.projectImage {
+    object-fit: cover; /* Cover the area */
+    object-position: bottom; /* Align image to the bottom */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+.projectDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
+ margin: 0;padding: 0%;
+}
+
+.projectTitle {
+    font-family: 'Playfair Display', serif; /* Assuming you want this font */
+    font-size: 1.5rem; /* Title font size */
+    font-weight: bold; /* Bold title */
+    font-style: italic; /* Italic title */
+    margin: 0;
+}
+
+.projectDescription {
+    /* Style for project description */
+}
+
+.badgeContainer {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap; /* Allow badges to wrap */
+}
+
+.badge {
+ background: #dac5a7;
+ border: 1px solid #dac5a7;
+ border-radius: 20px;
+ padding: 0.5rem 1rem;
+ color: #000;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .projectCard {
+        padding: 1rem; /* Adjust padding on smaller screens */
+    }
+
+    .projectTitle {
+        font-size: 1.25rem; /* Smaller font size on mobile */
+    }
+    .slider {
+
+        max-width: 100% !important;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+}

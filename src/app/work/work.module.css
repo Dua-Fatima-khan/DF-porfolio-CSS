@@ -1,0 +1,39 @@
+/* work.module.css */
+
+.workSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow-x: hidden;
+    padding: 2rem 1rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    gap: 1.25rem; /* Equivalent to gap-5 in Tailwind */
+}
+
+.heading {
+    font-size: 3.75rem; /* Equivalent to text-6xl */
+    font-style: italic;
+    color: #dac5a7; /* Ensures text is visible against the black background */
+    text-align: center;
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 2.5rem; /* Adjust heading size on smaller screens */
+    }
+
+    .header {
+        padding: 1.5rem 1rem;
+    }
+}

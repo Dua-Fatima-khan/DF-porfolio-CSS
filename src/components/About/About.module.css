@@ -1,0 +1,47 @@
+/* About.module.css */
+
+.section {
+    background-color: black;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    overflow-x: hidden;
+  }
+  
+  .heading {
+    font-size: 4.375rem; /* equivalent to text-7xl */
+    font-style: italic;
+    color: #dac5a7;
+  }
+  
+  .paragraph {
+    
+    text-align: center;
+    line-height: 1.75; /* leading-loose */
+    color: #dac5a7;
+  }
+  
+  .highlight {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.0625rem; /* text-[17px] */
+  }
+  
+  .quote {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: bold;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    color: #dac5a7;
+  }
+  
+  .quote span {
+    font-weight: normal;
+  }
+  

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Montserrat&display=swap');
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+
+body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: #dac5a7;
+  background: #000;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  
+
+}
+main{
+  width: 100%;  
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: #dac5a7;
+  background: #000;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+h1,p{
+
+  font-family: montserrat;
+}
+h2{
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+button{
+  background: #dac5a7;
+  font-family: montserrat;
+  padding: .5em .8em;
+  border: 1px solid #dac5a7;
+  border-radius: .2em;
+}
+Link, li{
+  font-style: normal;
+text-decoration: none;
+list-style-type: none;
+color: #dac5a7;
+}

@@ -1,0 +1,25 @@
+/* Service.module.css */
+.service {
+    padding-bottom: 2.5rem; /* pb-10 */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+    background-color: black;
+
+}
+.serviceTitle{
+    font-size:2.5rem;
+    font-family: playfair;
+    font-style: italic;
+}
+.cardContainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

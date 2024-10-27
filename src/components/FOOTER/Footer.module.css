@@ -1,0 +1,77 @@
+/* Footer.module.css */
+
+.section {
+    background-color: black; /* bg-black */
+  }
+  
+  .container {
+        padding: 2.5rem; /* p-10 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .quote {
+    padding: 0; /* py-10 */
+  }
+  
+  .title {
+    font-size: 3rem; /* text-5xl */
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .titleSpan {
+    font-family: "Mont", sans-serif; /* Assuming you have Montserrat font imported */
+    font-weight: normal; /* font-normal */
+  }
+  
+  .subtitle {
+    padding:.2rem; /* py-10 */
+  }
+  
+  .followHeader {
+    text-align: center;
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: bold;
+    padding: 1.25rem 0; /* py-5 */
+  }
+  
+  .socialContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem; /* gap-10 */
+    flex-wrap: wrap;
+  }
+  
+  .socialLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .socialTitle {
+    font-size: 1.5rem; 
+    margin: 0%;
+    padding: .1em;
+  }
+  
+  .footerText {
+    width: 100%;
+    text-align: center;
+    padding: 2.5rem 0; /* py-10 */
+  }
+  
+  .footerHighlight {
+    font-family: "Playfair", serif; /* Assuming you have Playfair font imported */
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.25rem; /* text-1xl */
+  }
+  
